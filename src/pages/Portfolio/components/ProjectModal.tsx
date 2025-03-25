@@ -21,13 +21,15 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ showProject, myProject, onC
   const [darkMode] = useRecoilState(darkModeState);
   const windowWidth = useWindowWidth();
 
-  const handleOutsideClick = (e: MouseEvent) => {
-    if (modalRef.current && !modalRef.current.contains(e.target as Node)) {
-      onClose();
-    }
-  };
+  
 
   useEffect(() => {
+    const handleOutsideClick = (e: MouseEvent) => {
+      if (modalRef.current && !modalRef.current.contains(e.target as Node)) {
+        onClose();
+      }
+    };
+
     if (showProject) {
       document.addEventListener('mousedown', handleOutsideClick);
     } else {
@@ -36,7 +38,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ showProject, myProject, onC
     return () => {
       document.removeEventListener('mousedown', handleOutsideClick);
     };
-  }, [showProject]);
+  }, [onClose, showProject]);
 
   if (!showProject) {
     return null;
@@ -48,9 +50,9 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ showProject, myProject, onC
         <h2>{myProject.name}</h2>
         <StyledDetailsSection>
           <ProjectDetailsItem isLink={false} img={projectIcon} itemType="Project" itemName={myProject.type} />
-          <ProjectDetailsItem isLink={false} img={languagesIcon} itemType="Languages" itemName={myProject.langs} />
+          <ProjectDetailsItem isLink={false} img={languagesIcon} itemType="Tech" itemName={myProject.tech} />
           <ProjectDetailsItem isLink={true} img={gitIcon} itemType="Code" itemName="Repository" link={myProject.repos} />
-          <ProjectDetailsItem isLink={true} img={browserIcon} itemType="Preview" itemName={myProject.name} link={myProject.prev} />
+          <ProjectDetailsItem isLink={true} img={browserIcon} itemType="Preview" itemName={myProject.name} link={myProject.preview} />
 
         </StyledDetailsSection>
         <StyledImageContainer $darkMode={darkMode}>

@@ -22,7 +22,7 @@ const HomeBody = () => {
       </StyledHeaderText>
       <StyledBodyText $windowWidth={windowWidth} $darkMode={darkMode} >
         I am a proficient web developer specializing in front-end
-        technologies. With expertise in HTML, CSS, and JavaScript, I am
+        technologies. With expertise in Typescript, React, and Next, I am
         dedicated to crafting visually appealing and interactive user
         experiences. Passionate about staying abreast of the latest industry
         trends, I am committed to delivering high-quality and responsive

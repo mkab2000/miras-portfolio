@@ -37,8 +37,8 @@ export interface ProjectInfo {
   name: string;
   image: string;
   type: string;
-  langs: string;
+  tech: string;
   repos: string;
-  prev: string;
+  preview: string;
   description: string;
 }
