@@ -40,7 +40,7 @@ const PersonalInfo = () => {
             Age:
           </StyledSpanSecondary>
           <StyledSpanPrimary $darkMode={darkMode}>
-            23 Years
+            25 Years
           </StyledSpanPrimary>
         </StyledListEntry>
 
@@ -76,7 +76,7 @@ const PersonalInfo = () => {
             Phone:
           </StyledSpanSecondary>
           <StyledSpanPrimary $darkMode={darkMode}>
-            +77018800510
+            +821032190048
           </StyledSpanPrimary>
         </StyledListEntry>
 

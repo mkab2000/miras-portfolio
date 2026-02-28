@@ -21,12 +21,7 @@ const HomeBody = () => {
         Web Developer
       </StyledHeaderText>
       <StyledBodyText $windowWidth={windowWidth} $darkMode={darkMode} >
-        I am a proficient web developer specializing in front-end
-        technologies. With expertise in Typescript, React, and Next, I am
-        dedicated to crafting visually appealing and interactive user
-        experiences. Passionate about staying abreast of the latest industry
-        trends, I am committed to delivering high-quality and responsive
-        websites.
+      I am a results-driven full-stack developer specializing in modern web and mobile technologies. With experience in React, React Native, Next.js, and Python-based backend development using FastAPI and SQLAlchemy, I focus on building scalable architectures and reliable applications. Passionate about creating seamless cross-platform experiences and continuously improving development processes, I strive to deliver high-quality products that perform well in real-world environments.
       </StyledBodyText>
       {/* <InteractiveButton
         onClick={ () => {

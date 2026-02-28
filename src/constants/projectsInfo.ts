@@ -9,8 +9,20 @@ import calculatorImg from "../assets/photos/works-calculator.png"
 import portfolioImg from "../assets/photos/works-portfolio.png"
 import messageBoardImg from "../assets/photos/works-messageBoard.png"
 import cyberpunkImg from "../assets/photos/works-cyberpunk.png"
+import driveImg from "../assets/photos/works-drive.png"
+
 
 export const projectsInfo: Record<string, ProjectInfo> = {
+  drive: {
+    projName: "drive",
+    name: "Bytebox",
+    image: driveImg,
+    type: "Web Page",
+    tech: "Typescript, NextJs, Appwrite",
+    repos: "https://github.com/mkab2000/bytebox",
+    preview: "https://bytebox-gold.vercel.app/",
+    description: "Online file management system enabling users to upload, organize, and manage files through a web interface.",
+  },
   cyberpunk: {
     projName: "cyberpunk",
     name: "Cyberpunk Companion App (Demo)",
@@ -19,7 +31,7 @@ export const projectsInfo: Record<string, ProjectInfo> = {
     tech: "Typescript, NextJs, Supabase",
     repos: "https://github.com/mkab2000/cyberpunk-companion",
     preview: "https://mkab-cyberpunk-companion.vercel.app",
-    description: "Previous portfolio.",
+    description: "Demo of a companion app, offering a character builder and real-timemessageboard for monitoring of text messages and combat alike.",
   },
   portfolio: {
     projName: "portfolio",
@@ -39,7 +51,7 @@ export const projectsInfo: Record<string, ProjectInfo> = {
     tech: "Typescript, CSS",
     repos: "https://github.com/mkab2000/realtime-messageboard/tree/master",
     preview: "https://realtime-messageboard.vercel.app",
-    description: "Interactive messageboard, unfortunately works no more, due to unsupported API.",
+    description: "Interactive real-time messageboard.",
   },
   calculator: {
     projName: "calculator",

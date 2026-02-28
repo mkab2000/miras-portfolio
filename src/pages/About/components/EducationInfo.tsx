@@ -24,6 +24,26 @@ const EducationInfo = () => {
 
       <StyledEducationContainer>
         <StyledList>
+        <StyledListItem>
+            <StyledIconContainer $darkMode={darkMode}>
+              <img
+                style={{ width: "20px", height: "20px", filter: "brightness(3)" }}
+                src={iconBriefcase}
+                alt="job"
+              />
+            </StyledIconContainer>
+            <StyledDateWrapper $darkMode={darkMode}>
+              2025 Mar - 2026 Feb
+            </StyledDateWrapper>
+            <StyledEducationContent $darkMode={darkMode}>
+              Fullstack/Mobile Developer
+              <span>- Stella&</span>
+              <p>
+              Developing and maintaining <strong>cross-platform mobile applications</strong> and <strong>full-stack platform features</strong>, leading the migration of the <strong>Toonyz platform to React Native</strong> for Android and iOS. Managing <strong>backend infrastructure</strong>, <strong>database systems</strong>, and <strong>scalable APIs</strong>, while building internal <strong>dashboards and tools</strong> for companies and freelancers using the <strong>Echo AI translation platform</strong>. Continuously improving <strong>AI-driven services</strong> and implementing <strong>technical solutions for live events</strong>. Utilizing technologies such as <strong>React</strong>, <strong>React Native</strong>, <strong>Next.js</strong>, <strong>FastAPI</strong>, <strong>SQLAlchemy</strong>, <strong>PostgreSQL</strong>, and other modern tools.
+              </p>
+            </StyledEducationContent>
+          </StyledListItem>
+
           <StyledListItem>
             <StyledIconContainer $darkMode={darkMode}>
               <img
@@ -33,7 +53,7 @@ const EducationInfo = () => {
               />
             </StyledIconContainer>
             <StyledDateWrapper $darkMode={darkMode}>
-              2023 August - 2024 February
+              2023 August - 2024 June
             </StyledDateWrapper>
             <StyledEducationContent $darkMode={darkMode}>
               Front End Developer
@@ -80,7 +100,7 @@ const EducationInfo = () => {
             </StyledEducationContent>
           </StyledListItem>
 
-          <StyledListItem>
+          {/* <StyledListItem>
             <StyledIconContainer $darkMode = {darkMode}>
               <img
                 style={{ width: "20px", height: "20px", filter: "brightness(3)" }}
@@ -111,7 +131,7 @@ const EducationInfo = () => {
                 acquiring relevant certificates.
               </p>
             </StyledEducationContent>
-          </StyledListItem>
+          </StyledListItem> */}
           
         </StyledList>
       </StyledEducationContainer>
