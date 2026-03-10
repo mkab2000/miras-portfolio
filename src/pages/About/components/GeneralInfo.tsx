@@ -17,7 +17,7 @@ const GeneralInfo = () => {
         <Title $darkMode={darkMode}>PERSONAL INFORMATION</Title>
         <PersonalInfo />
         <DownloadLink
-          href="https://drive.google.com/file/d/1muvOBop8VYIPWl2UQ82tQ7aO5KhHu3Zc/view?usp=sharing"
+          href="https://drive.google.com/file/d/15tQZKmJ4a8ScB9bhTP07AhGWiMyTjst4/view?usp=sharing"
           download="Miras_Resume_1_0.pdf"
           target="_blank"
         >
