@@ -6,7 +6,6 @@ import minesweeperImg from "../assets/photos/works-minesweeper.png"
 import guideImg from "../assets/photos/works-guide.png"
 import ageCalculatorImg from "../assets/photos/works-ageCalculator.png"
 import calculatorImg from "../assets/photos/works-calculator.png"
-import portfolioImg from "../assets/photos/works-portfolio.png"
 import messageBoardImg from "../assets/photos/works-messageBoard.png"
 import cyberpunkImg from "../assets/photos/works-cyberpunk.png"
 import driveImg from "../assets/photos/works-drive.png"
@@ -32,16 +31,6 @@ export const projectsInfo: Record<string, ProjectInfo> = {
     repos: "https://github.com/mkab2000/cyberpunk-companion",
     preview: "https://mkab-cyberpunk-companion.vercel.app",
     description: "Demo of a companion app, offering a character builder and real-timemessageboard for monitoring of text messages and combat alike.",
-  },
-  portfolio: {
-    projName: "portfolio",
-    name: "Previous Portfolio",
-    image: portfolioImg,
-    type: "Web Page",
-    tech: "HTML, CSS, JS",
-    repos: "https://github.com/mkab2000/portfolio",
-    preview: "https://mkab2000.github.io/portfolio/",
-    description: "Previous portfolio.",
   },
   messageBoard: {
     projName: "messageBoard",

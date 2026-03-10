@@ -73,40 +73,6 @@ const PersonalInfo = () => {
 
         <StyledListEntry $windowWidth={windowWidth}>
           <StyledSpanSecondary $darkMode={darkMode}>
-            Phone:
-          </StyledSpanSecondary>
-          <StyledSpanPrimary $darkMode={darkMode}>
-            +821032190048
-          </StyledSpanPrimary>
-        </StyledListEntry>
-
-        <StyledListEntry $windowWidth={windowWidth}>
-          <StyledSpanSecondary $darkMode={darkMode}>
-            Email:
-          </StyledSpanSecondary>
-          <StyledSpanPrimary $darkMode={darkMode}>
-            miras.kab@gmail.com
-          </StyledSpanPrimary>
-        </StyledListEntry>
-
-        <StyledListEntry $windowWidth={windowWidth}>
-          <StyledSpanSecondary $darkMode={darkMode}>
-            Github:
-          </StyledSpanSecondary>
-          <StyledSpanPrimary $darkMode={darkMode}>
-            <a
-              href="https://github.com/mkab2000"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: darkMode ? 'var(--primary-color-dark)' : 'var(--primary-color-light)' }}
-            >
-              My Git
-            </a>
-          </StyledSpanPrimary>
-        </StyledListEntry>
-
-        <StyledListEntry $windowWidth={windowWidth}>
-          <StyledSpanSecondary $darkMode={darkMode}>
             Languages:
           </StyledSpanSecondary>
           <StyledSpanPrimary $darkMode={darkMode}>
