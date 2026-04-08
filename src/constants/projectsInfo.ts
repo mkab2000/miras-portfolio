@@ -9,9 +9,20 @@ import calculatorImg from "../assets/photos/works-calculator.png"
 import messageBoardImg from "../assets/photos/works-messageBoard.png"
 import cyberpunkImg from "../assets/photos/works-cyberpunk.png"
 import driveImg from "../assets/photos/works-drive.png"
+import webIdeImg from "../assets/photos/works-web-editor.png"
 
 
 export const projectsInfo: Record<string, ProjectInfo> = {
+  webIde: {
+    projName: "webIde",
+    name: "Web IDE",
+    image: webIdeImg,
+    type: "Web Page",
+    tech: "Typescript, NextJs, Jotai",
+    repos: "https://github.com/mkab2000/web-editor",
+    preview: "https://web-editor-eta.vercel.app/",
+    description: "Browser-based code editor featuring a virtual file system for ZIP management, cross-file IntelliSense, and real-time tab synchronization.",
+  },
   drive: {
     projName: "drive",
     name: "Bytebox",
